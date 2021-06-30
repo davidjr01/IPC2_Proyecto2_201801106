@@ -69,10 +69,14 @@ def index(request):
             lj2=linea.split(',')
             juegos.append(lj2)
 
-
+        s = document.createElement('Clientes')
+        root.appendChild(s)
+        cont1=0
         for linea in lclientes:
-            t = document.createElement('Cliente')
-            root.appendChild(t)
+            cont1=cont1+1
+            t = document.createElement('Cliente_'+str(cont1))
+            s.appendChild(t)
+
             nombre = document.createElement('Nombre')
             nombre.appendChild(document.createTextNode(linea[0]))
             t.appendChild(nombre)
@@ -94,9 +98,13 @@ def index(request):
             t.appendChild(compra)
         
         #----------------------
+        s2 = document.createElement('Mejores_Clientes')
+        root.appendChild(s2)
+        cont2=0
         for linea in mclientes:
-            t = document.createElement('Mejores_Clientes')
-            root.appendChild(t)
+            cont2=cont2+1
+            t = document.createElement('cliente_'+str(cont2))
+            s2.appendChild(t)
 
             nombre = document.createElement('Nombre')
             nombre.appendChild(document.createTextNode(linea[0]))
@@ -115,9 +123,13 @@ def index(request):
             t.appendChild(cg)
 
         #----------------------------
-        for linea in jv:
-            t = document.createElement('Juegos_MasVendidos')
-            root.appendChild(t)
+        s3 = document.createElement('Juegos_MasVendidos')
+        root.appendChild(s3)
+        cont3=0
+        for linea in juegosv:
+            cont3=cont3+1
+            t = document.createElement('Juego_'+str(cont3))
+            s3.appendChild(t)
 
             nombre = document.createElement('Nombre')
             nombre.appendChild(document.createTextNode(linea[0]))
@@ -131,9 +143,37 @@ def index(request):
             cv.appendChild(document.createTextNode(linea[2]))
             t.appendChild(cv)
 
-            st = document.createElement('Stoc')
+            st = document.createElement('Stock')
             st.appendChild(document.createTextNode(linea[3]))
             t.appendChild(st)
+
+        #----------------------------
+        s4 = document.createElement('Juegos')
+        root.appendChild(s4)
+        cont4=0
+        for linea in juegos:
+            cont4=cont4+1
+            t = document.createElement('Juego_'+str(cont4))
+            s4.appendChild(t)
+
+            nombre = document.createElement('Nombre')
+            nombre.appendChild(document.createTextNode(linea[0]))
+            t.appendChild(nombre)
+
+            p = document.createElement('Plataforma')
+            p.appendChild(document.createTextNode(linea[1]))
+            t.appendChild(p)
+
+            a = document.createElement('Ano_Lanzamiento')
+            a.appendChild(document.createTextNode(linea[2]))
+            t.appendChild(a)
+
+            cla = document.createElement('Clasificacion')
+            cla.appendChild(document.createTextNode(linea[3]))
+            t.appendChild(cla)
+
+
+            
         
         xml = root.toprettyxml(indent='\t', encoding='utf-8')
 
