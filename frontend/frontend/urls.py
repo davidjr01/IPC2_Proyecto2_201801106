@@ -20,5 +20,6 @@ from pag.views import*
 
 urlpatterns = [
     path('', index,name='index'),
+    path('recibir_archivo/',recibir_archivo, name='recibir_archivo'),
 
 ]

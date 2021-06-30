@@ -11,18 +11,18 @@ cors=CORS(app,resources={r"/*":{"origin":"*"}})
 def index():
     return 'hola muxzcvzxcvndo'
 
-@app.route('/datos',methods=['GET'])  ##es el que manda datos
+@app.route('/datos',methods=['GET'])  # manda datos
 def get_datos():
-    abrir=open('guardar.txt','r+')
+    abrir=open('guardar2.xml','r+')
     return Response(status=200,response=abrir.read(),content_type='text/plain')
 
-@app.route('/datos',methods=['POST'])   ## es el que recibe datos
+@app.route('/datos',methods=['POST'])   ##recibe datos
 def post_datos():
     str_file=request.data.decode('utf-8')
-    guardar=open('guardar.txt','w+')
+    guardar=open('guardar2.xml','w+')
     guardar.write(str_file)
     guardar.close()
-    print(str_file)
+    
     return Response(status=204)
 
 
