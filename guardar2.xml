@@ -1,72 +1,132 @@
 <Documento>
 	<Cliente>
-		<nombre>Xhunik</nombre>
-		<apellido>Miguel</apellido>
-		<edad>19</edad>
-		<fecha_cumple_anos>05/10/2002</fecha_cumple_anos>
-		<primera_compra>06/04/2014</primera_compra>
+		<Nombre>Xhunik</Nombre>
+		<Apellido>Miguel</Apellido>
+		<Edad>19</Edad>
+		<Fecha_Cumple_Anos>05/10/2002</Fecha_Cumple_Anos>
+		<Primera_Compra>06/04/2014</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Abdul</nombre>
-		<apellido>Chacón</apellido>
-		<edad>22</edad>
-		<fecha_cumple_anos>12/12/1998</fecha_cumple_anos>
-		<primera_compra>23/06/2021</primera_compra>
+		<Nombre>Abdul</Nombre>
+		<Apellido>Chacón</Apellido>
+		<Edad>22</Edad>
+		<Fecha_Cumple_Anos>12/12/1998</Fecha_Cumple_Anos>
+		<Primera_Compra>23/06/2021</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Juan</nombre>
-		<apellido>Gaitan</apellido>
-		<edad>23</edad>
-		<fecha_cumple_anos>01/04/1998</fecha_cumple_anos>
-		<primera_compra>20/10/2019</primera_compra>
+		<Nombre>Juan</Nombre>
+		<Apellido>Gaitan</Apellido>
+		<Edad>23</Edad>
+		<Fecha_Cumple_Anos>01/04/1998</Fecha_Cumple_Anos>
+		<Primera_Compra>20/10/2019</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Daniel</nombre>
-		<apellido>Castellanos</apellido>
-		<edad>22</edad>
-		<fecha_cumple_anos>10/06/1998</fecha_cumple_anos>
-		<primera_compra>23/06/2021</primera_compra>
+		<Nombre>Daniel</Nombre>
+		<Apellido>Castellanos</Apellido>
+		<Edad>22</Edad>
+		<Fecha_Cumple_Anos>10/06/1998</Fecha_Cumple_Anos>
+		<Primera_Compra>23/06/2021</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Carlos</nombre>
-		<apellido>Paz</apellido>
-		<edad>21</edad>
-		<fecha_cumple_anos>12/03/1999</fecha_cumple_anos>
-		<primera_compra>09/06/2021</primera_compra>
+		<Nombre>Carlos</Nombre>
+		<Apellido>Paz</Apellido>
+		<Edad>21</Edad>
+		<Fecha_Cumple_Anos>12/03/1999</Fecha_Cumple_Anos>
+		<Primera_Compra>09/06/2021</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Daniel</nombre>
-		<apellido>Marroquin</apellido>
-		<edad>23</edad>
-		<fecha_cumple_anos>08/12/2021</fecha_cumple_anos>
-		<primera_compra>26/06/2021</primera_compra>
+		<Nombre>Daniel</Nombre>
+		<Apellido>Marroquin</Apellido>
+		<Edad>23</Edad>
+		<Fecha_Cumple_Anos>08/12/2021</Fecha_Cumple_Anos>
+		<Primera_Compra>26/06/2021</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Brandon</nombre>
-		<apellido>Pozuelos</apellido>
-		<edad>23</edad>
-		<fecha_cumple_anos>02/08/1997</fecha_cumple_anos>
-		<primera_compra>11/11/2020</primera_compra>
+		<Nombre>Brandon</Nombre>
+		<Apellido>Pozuelos</Apellido>
+		<Edad>23</Edad>
+		<Fecha_Cumple_Anos>02/08/1997</Fecha_Cumple_Anos>
+		<Primera_Compra>11/11/2020</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Maria Andrea</nombre>
-		<apellido>Orellana</apellido>
-		<edad>23</edad>
-		<fecha_cumple_anos>08/02/1998</fecha_cumple_anos>
-		<primera_compra>10/11/2007</primera_compra>
+		<Nombre>Maria Andrea</Nombre>
+		<Apellido>Orellana</Apellido>
+		<Edad>23</Edad>
+		<Fecha_Cumple_Anos>08/02/1998</Fecha_Cumple_Anos>
+		<Primera_Compra>10/11/2007</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Walther</nombre>
-		<apellido>Corado</apellido>
-		<edad>27</edad>
-		<fecha_cumple_anos>08/08/1993</fecha_cumple_anos>
-		<primera_compra>10/01/2019</primera_compra>
+		<Nombre>Walther</Nombre>
+		<Apellido>Corado</Apellido>
+		<Edad>27</Edad>
+		<Fecha_Cumple_Anos>08/08/1993</Fecha_Cumple_Anos>
+		<Primera_Compra>10/01/2019</Primera_Compra>
 	</Cliente>
 	<Cliente>
-		<nombre>Zenaida </nombre>
-		<apellido>García </apellido>
-		<edad>22</edad>
-		<fecha_cumple_anos>07/01/1999</fecha_cumple_anos>
-		<primera_compra>24/02/2014</primera_compra>
+		<Nombre>Zenaida </Nombre>
+		<Apellido>García </Apellido>
+		<Edad>22</Edad>
+		<Fecha_Cumple_Anos>07/01/1999</Fecha_Cumple_Anos>
+		<Primera_Compra>24/02/2014</Primera_Compra>
 	</Cliente>
+	<Mejores_Clientes>
+		<Nombre>Xhunik</Nombre>
+		<Ultima_Compra>05/05/2021</Ultima_Compra>
+		<Juegos_Vendidos>4</Juegos_Vendidos>
+		<Cantidad_Gastada>400</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Abdul</Nombre>
+		<Ultima_Compra>22/06/2021</Ultima_Compra>
+		<Juegos_Vendidos>6</Juegos_Vendidos>
+		<Cantidad_Gastada>235</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Juan Gaitan</Nombre>
+		<Ultima_Compra>23/06/2021</Ultima_Compra>
+		<Juegos_Vendidos>10</Juegos_Vendidos>
+		<Cantidad_Gastada>1000</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Daniel</Nombre>
+		<Ultima_Compra>12/09/2020</Ultima_Compra>
+		<Juegos_Vendidos>4</Juegos_Vendidos>
+		<Cantidad_Gastada>150.4</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Jose</Nombre>
+		<Ultima_Compra>10/06/2021</Ultima_Compra>
+		<Juegos_Vendidos>6</Juegos_Vendidos>
+		<Cantidad_Gastada>10000.56</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Eduardo </Nombre>
+		<Ultima_Compra>30/06/2021</Ultima_Compra>
+		<Juegos_Vendidos>15</Juegos_Vendidos>
+		<Cantidad_Gastada>750.55</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Jose</Nombre>
+		<Ultima_Compra>15/12/2020</Ultima_Compra>
+		<Juegos_Vendidos>15</Juegos_Vendidos>
+		<Cantidad_Gastada>1500.44</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Pablo Ramirez</Nombre>
+		<Ultima_Compra>11/12/2020</Ultima_Compra>
+		<Juegos_Vendidos>2</Juegos_Vendidos>
+		<Cantidad_Gastada>950.55</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Walther</Nombre>
+		<Ultima_Compra>22/08/2020</Ultima_Compra>
+		<Juegos_Vendidos>3</Juegos_Vendidos>
+		<Cantidad_Gastada>1000.4</Cantidad_Gastada>
+	</Mejores_Clientes>
+	<Mejores_Clientes>
+		<Nombre>Zenaida </Nombre>
+		<Ultima_Compra>24/02/2021</Ultima_Compra>
+		<Juegos_Vendidos>6</Juegos_Vendidos>
+		<Cantidad_Gastada>3000.44</Cantidad_Gastada>
+	</Mejores_Clientes>
 </Documento>
