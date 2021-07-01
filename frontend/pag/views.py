@@ -3,6 +3,7 @@ import requests
 from xml.etree import ElementTree as ET
 from xml.dom import minidom
 from requests.api import options
+import re
 
 from requests.models import encode_multipart_formdata
 
@@ -16,6 +17,16 @@ juegosv=[]
 
 # Create your views here.
 def index(request):
+    if request.method=='GET':
+        url=endpoint.format('/datos')
+        data=requests.get(url)
+        context={
+            'data':data.text,
+        }
+        return render(request,'index.html',context)
+
+
+def recibir_archivo(request):
     if request.method=='GET':
         url=endpoint.format('/datos')
         data=requests.get(url)
@@ -171,6 +182,39 @@ def index(request):
             cla = document.createElement('Clasificacion')
             cla.appendChild(document.createTextNode(linea[3]))
             t.appendChild(cla)
+        
+        controlc=False
+
+        
+#lclientes=[]
+#juegos=[]
+#mclientes=[]
+#juegosv=[]
+        for linea in lclientes:
+            for i in linea[0]:
+                if re.search(r'[A-Za-z ]',i):
+                    xs=0
+                else:
+                    control=True
+                    break
+
+            for i in linea[1]:
+                if re.search(r'[A-Za-z ]',i):
+                    xs=0
+                else:
+                    control=True
+                    break
+            
+            for i in linea[2]:
+                if re.search(r'\d',i):
+                    xs=0
+                else:
+                    control=True
+                    break
+            
+            
+
+
 
 
             
@@ -180,14 +224,7 @@ def index(request):
         url=endpoint.format('/datos')
         requests.post(url,xml)
         return redirect ('index')
-
-def recibir_archivo(request):
-    if request.method=='POST':
-        archivo=request.FILES['document']
-        adata=archivo.read()
-
-
-    return redirect('index')
+    
 
 
 
