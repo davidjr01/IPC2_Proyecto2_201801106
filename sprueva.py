@@ -1,11 +1,12 @@
 import re
-a="a12ds"
+a="12/11/1212"
 
-for i in a:
-    if re.search(r'\d',i):
-        print("si")
-    else:
-        print("no")
+if re.match(r'^([0-2][0-9]|3[0-1])(\/)(0[1-9]|1[0-2])\2(\d{4})$',a):
+    print("si")
+else:
+    print("error")
+
+
        
 
 

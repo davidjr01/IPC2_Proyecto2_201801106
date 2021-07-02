@@ -1,260 +1,260 @@
 <Documento>
 	<Clientes>
-		<Cliente_1>
+		<Cliente>
 			<Nombre>Xhunik</Nombre>
 			<Apellido>Miguel</Apellido>
 			<Edad>19</Edad>
 			<Fecha_Cumple_Anos>05/10/2002</Fecha_Cumple_Anos>
 			<Primera_Compra>06/04/2014</Primera_Compra>
-		</Cliente_1>
-		<Cliente_2>
+		</Cliente>
+		<Cliente>
 			<Nombre>Abdul</Nombre>
-			<Apellido>Chacón</Apellido>
+			<Apellido>ChacÃ³n</Apellido>
 			<Edad>22</Edad>
 			<Fecha_Cumple_Anos>12/12/1998</Fecha_Cumple_Anos>
 			<Primera_Compra>23/06/2021</Primera_Compra>
-		</Cliente_2>
-		<Cliente_3>
+		</Cliente>
+		<Cliente>
 			<Nombre>Juan</Nombre>
 			<Apellido>Gaitan</Apellido>
 			<Edad>23</Edad>
 			<Fecha_Cumple_Anos>01/04/1998</Fecha_Cumple_Anos>
 			<Primera_Compra>20/10/2019</Primera_Compra>
-		</Cliente_3>
-		<Cliente_4>
+		</Cliente>
+		<Cliente>
 			<Nombre>Daniel</Nombre>
 			<Apellido>Castellanos</Apellido>
 			<Edad>22</Edad>
 			<Fecha_Cumple_Anos>10/06/1998</Fecha_Cumple_Anos>
 			<Primera_Compra>23/06/2021</Primera_Compra>
-		</Cliente_4>
-		<Cliente_5>
+		</Cliente>
+		<Cliente>
 			<Nombre>Carlos</Nombre>
 			<Apellido>Paz</Apellido>
 			<Edad>21</Edad>
 			<Fecha_Cumple_Anos>12/03/1999</Fecha_Cumple_Anos>
 			<Primera_Compra>09/06/2021</Primera_Compra>
-		</Cliente_5>
-		<Cliente_6>
+		</Cliente>
+		<Cliente>
 			<Nombre>Daniel</Nombre>
 			<Apellido>Marroquin</Apellido>
 			<Edad>23</Edad>
 			<Fecha_Cumple_Anos>08/12/2021</Fecha_Cumple_Anos>
 			<Primera_Compra>26/06/2021</Primera_Compra>
-		</Cliente_6>
-		<Cliente_7>
+		</Cliente>
+		<Cliente>
 			<Nombre>Brandon</Nombre>
 			<Apellido>Pozuelos</Apellido>
 			<Edad>23</Edad>
 			<Fecha_Cumple_Anos>02/08/1997</Fecha_Cumple_Anos>
 			<Primera_Compra>11/11/2020</Primera_Compra>
-		</Cliente_7>
-		<Cliente_8>
+		</Cliente>
+		<Cliente>
 			<Nombre>Maria Andrea</Nombre>
 			<Apellido>Orellana</Apellido>
 			<Edad>23</Edad>
 			<Fecha_Cumple_Anos>08/02/1998</Fecha_Cumple_Anos>
 			<Primera_Compra>10/11/2007</Primera_Compra>
-		</Cliente_8>
-		<Cliente_9>
+		</Cliente>
+		<Cliente>
 			<Nombre>Walther</Nombre>
 			<Apellido>Corado</Apellido>
 			<Edad>27</Edad>
 			<Fecha_Cumple_Anos>08/08/1993</Fecha_Cumple_Anos>
 			<Primera_Compra>10/01/2019</Primera_Compra>
-		</Cliente_9>
-		<Cliente_10>
+		</Cliente>
+		<Cliente>
 			<Nombre>Zenaida </Nombre>
-			<Apellido>García </Apellido>
+			<Apellido>GarcÃ­a </Apellido>
 			<Edad>22</Edad>
 			<Fecha_Cumple_Anos>07/01/1999</Fecha_Cumple_Anos>
 			<Primera_Compra>24/02/2014</Primera_Compra>
-		</Cliente_10>
+		</Cliente>
 	</Clientes>
 	<Mejores_Clientes>
-		<cliente_1>
+		<cliente>
 			<Nombre>Xhunik</Nombre>
 			<Ultima_Compra>05/05/2021</Ultima_Compra>
 			<Juegos_Vendidos>4</Juegos_Vendidos>
 			<Cantidad_Gastada>400</Cantidad_Gastada>
-		</cliente_1>
-		<cliente_2>
+		</cliente>
+		<cliente>
 			<Nombre>Abdul</Nombre>
 			<Ultima_Compra>22/06/2021</Ultima_Compra>
 			<Juegos_Vendidos>6</Juegos_Vendidos>
 			<Cantidad_Gastada>235</Cantidad_Gastada>
-		</cliente_2>
-		<cliente_3>
+		</cliente>
+		<cliente>
 			<Nombre>Juan Gaitan</Nombre>
 			<Ultima_Compra>23/06/2021</Ultima_Compra>
 			<Juegos_Vendidos>10</Juegos_Vendidos>
 			<Cantidad_Gastada>1000</Cantidad_Gastada>
-		</cliente_3>
-		<cliente_4>
+		</cliente>
+		<cliente>
 			<Nombre>Daniel</Nombre>
 			<Ultima_Compra>12/09/2020</Ultima_Compra>
 			<Juegos_Vendidos>4</Juegos_Vendidos>
 			<Cantidad_Gastada>150.4</Cantidad_Gastada>
-		</cliente_4>
-		<cliente_5>
+		</cliente>
+		<cliente>
 			<Nombre>Jose</Nombre>
 			<Ultima_Compra>10/06/2021</Ultima_Compra>
 			<Juegos_Vendidos>6</Juegos_Vendidos>
 			<Cantidad_Gastada>10000.56</Cantidad_Gastada>
-		</cliente_5>
-		<cliente_6>
+		</cliente>
+		<cliente>
 			<Nombre>Eduardo </Nombre>
 			<Ultima_Compra>30/06/2021</Ultima_Compra>
 			<Juegos_Vendidos>15</Juegos_Vendidos>
 			<Cantidad_Gastada>750.55</Cantidad_Gastada>
-		</cliente_6>
-		<cliente_7>
+		</cliente>
+		<cliente>
 			<Nombre>Jose</Nombre>
 			<Ultima_Compra>15/12/2020</Ultima_Compra>
 			<Juegos_Vendidos>15</Juegos_Vendidos>
 			<Cantidad_Gastada>1500.44</Cantidad_Gastada>
-		</cliente_7>
-		<cliente_8>
+		</cliente>
+		<cliente>
 			<Nombre>Pablo Ramirez</Nombre>
 			<Ultima_Compra>11/12/2020</Ultima_Compra>
 			<Juegos_Vendidos>2</Juegos_Vendidos>
 			<Cantidad_Gastada>950.55</Cantidad_Gastada>
-		</cliente_8>
-		<cliente_9>
+		</cliente>
+		<cliente>
 			<Nombre>Walther</Nombre>
 			<Ultima_Compra>22/08/2020</Ultima_Compra>
 			<Juegos_Vendidos>3</Juegos_Vendidos>
 			<Cantidad_Gastada>1000.4</Cantidad_Gastada>
-		</cliente_9>
-		<cliente_10>
+		</cliente>
+		<cliente>
 			<Nombre>Zenaida </Nombre>
 			<Ultima_Compra>24/02/2021</Ultima_Compra>
 			<Juegos_Vendidos>6</Juegos_Vendidos>
 			<Cantidad_Gastada>3000.44</Cantidad_Gastada>
-		</cliente_10>
+		</cliente>
 	</Mejores_Clientes>
 	<Juegos_MasVendidos>
-		<Juego_1>
+		<Juego>
 			<Nombre>LOL</Nombre>
 			<Ultima_Compra>04/04/2021</Ultima_Compra>
 			<Copias_Vendidas>1000</Copias_Vendidas>
 			<Stock>5000</Stock>
-		</Juego_1>
-		<Juego_2>
+		</Juego>
+		<Juego>
 			<Nombre>Genshin Impact</Nombre>
 			<Ultima_Compra>15/05/2021</Ultima_Compra>
 			<Copias_Vendidas>230</Copias_Vendidas>
 			<Stock>20</Stock>
-		</Juego_2>
-		<Juego_3>
+		</Juego>
+		<Juego>
 			<Nombre>Doom</Nombre>
 			<Ultima_Compra>27/06/2021</Ultima_Compra>
 			<Copias_Vendidas>25</Copias_Vendidas>
 			<Stock>17</Stock>
-		</Juego_3>
-		<Juego_4>
+		</Juego>
+		<Juego>
 			<Nombre>Cheggs</Nombre>
 			<Ultima_Compra>12/09/2018</Ultima_Compra>
 			<Copias_Vendidas>5</Copias_Vendidas>
 			<Stock>8</Stock>
-		</Juego_4>
-		<Juego_5>
+		</Juego>
+		<Juego>
 			<Nombre>Splatoon</Nombre>
 			<Ultima_Compra>22/06/2021</Ultima_Compra>
 			<Copias_Vendidas>500</Copias_Vendidas>
 			<Stock>26</Stock>
-		</Juego_5>
-		<Juego_6>
+		</Juego>
+		<Juego>
 			<Nombre>Mario kart</Nombre>
 			<Ultima_Compra>23/06/2021</Ultima_Compra>
 			<Copias_Vendidas>2000</Copias_Vendidas>
 			<Stock>100</Stock>
-		</Juego_6>
-		<Juego_7>
+		</Juego>
+		<Juego>
 			<Nombre>Smash</Nombre>
 			<Ultima_Compra>08/08/2018</Ultima_Compra>
 			<Copias_Vendidas>100</Copias_Vendidas>
 			<Stock>2000</Stock>
-		</Juego_7>
-		<Juego_8>
+		</Juego>
+		<Juego>
 			<Nombre>E.T. The Extra-Terrestrial</Nombre>
 			<Ultima_Compra>03/12/1990</Ultima_Compra>
 			<Copias_Vendidas>500</Copias_Vendidas>
 			<Stock>1</Stock>
-		</Juego_8>
-		<Juego_9>
+		</Juego>
+		<Juego>
 			<Nombre>The Last of Us</Nombre>
 			<Ultima_Compra>30/12/2020</Ultima_Compra>
 			<Copias_Vendidas>1000</Copias_Vendidas>
 			<Stock>23</Stock>
-		</Juego_9>
-		<Juego_10>
+		</Juego>
+		<Juego>
 			<Nombre>Minecraft</Nombre>
 			<Ultima_Compra>22/06/2021</Ultima_Compra>
 			<Copias_Vendidas>50</Copias_Vendidas>
 			<Stock>10</Stock>
-		</Juego_10>
+		</Juego>
 	</Juegos_MasVendidos>
 	<Juegos>
-		<Juego_1>
+		<Juego>
 			<Nombre>Minecraft</Nombre>
 			<Plataforma>PC</Plataforma>
 			<Ano_Lanzamiento>2012</Ano_Lanzamiento>
 			<Clasificacion>E</Clasificacion>
-		</Juego_1>
-		<Juego_2>
+		</Juego>
+		<Juego>
 			<Nombre>Call of Dutty MW3</Nombre>
 			<Plataforma>PS3</Plataforma>
 			<Ano_Lanzamiento>2014</Ano_Lanzamiento>
 			<Clasificacion>T</Clasificacion>
-		</Juego_2>
-		<Juego_3>
+		</Juego>
+		<Juego>
 			<Nombre>Fortnite</Nombre>
 			<Plataforma>PS4</Plataforma>
 			<Ano_Lanzamiento>2015</Ano_Lanzamiento>
 			<Clasificacion>E</Clasificacion>
-		</Juego_3>
-		<Juego_4>
+		</Juego>
+		<Juego>
 			<Nombre>Chegg</Nombre>
 			<Plataforma>PC</Plataforma>
 			<Ano_Lanzamiento>2001</Ano_Lanzamiento>
 			<Clasificacion>T</Clasificacion>
-		</Juego_4>
-		<Juego_5>
+		</Juego>
+		<Juego>
 			<Nombre>Bloodborne </Nombre>
 			<Plataforma>Ps4</Plataforma>
 			<Ano_Lanzamiento>2017</Ano_Lanzamiento>
 			<Clasificacion>M</Clasificacion>
-		</Juego_5>
-		<Juego_6>
+		</Juego>
+		<Juego>
 			<Nombre>Nba2k</Nombre>
 			<Plataforma>Ps4</Plataforma>
 			<Ano_Lanzamiento>2021</Ano_Lanzamiento>
 			<Clasificacion>T</Clasificacion>
-		</Juego_6>
-		<Juego_7>
+		</Juego>
+		<Juego>
 			<Nombre>Banjo-Kazooie</Nombre>
 			<Plataforma>Consola</Plataforma>
 			<Ano_Lanzamiento>1997</Ano_Lanzamiento>
 			<Clasificacion>E</Clasificacion>
-		</Juego_7>
-		<Juego_8>
+		</Juego>
+		<Juego>
 			<Nombre>The Elded Scrolls V: Skyrim</Nombre>
 			<Plataforma>PS4</Plataforma>
 			<Ano_Lanzamiento>2011</Ano_Lanzamiento>
 			<Clasificacion>M</Clasificacion>
-		</Juego_8>
-		<Juego_9>
+		</Juego>
+		<Juego>
 			<Nombre>Uncharted 5</Nombre>
 			<Plataforma>Digital</Plataforma>
 			<Ano_Lanzamiento>2018</Ano_Lanzamiento>
 			<Clasificacion>E</Clasificacion>
-		</Juego_9>
-		<Juego_10>
+		</Juego>
+		<Juego>
 			<Nombre>The Legend of Zelda: Ocarina of Time</Nombre>
 			<Plataforma>Nintendo iQue</Plataforma>
 			<Ano_Lanzamiento>1998</Ano_Lanzamiento>
 			<Clasificacion>E</Clasificacion>
-		</Juego_10>
+		</Juego>
 	</Juegos>
 </Documento>

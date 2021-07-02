@@ -22,6 +22,7 @@ def index(request):
         data=requests.get(url)
         context={
             'data':data.text,
+            
         }
         return render(request,'index.html',context)
 
@@ -36,6 +37,10 @@ def recibir_archivo(request):
         return render(request,'index.html',context)
 
     elif request.method=='POST':
+        controlc=False
+        controlmc=False
+        controlj=False 
+        controljv=False
         document = minidom.Document()
         root = document.createElement('Documento')
 
@@ -85,7 +90,7 @@ def recibir_archivo(request):
         cont1=0
         for linea in lclientes:
             cont1=cont1+1
-            t = document.createElement('Cliente_'+str(cont1))
+            t = document.createElement('Cliente')
             s.appendChild(t)
 
             nombre = document.createElement('Nombre')
@@ -114,7 +119,7 @@ def recibir_archivo(request):
         cont2=0
         for linea in mclientes:
             cont2=cont2+1
-            t = document.createElement('cliente_'+str(cont2))
+            t = document.createElement('cliente')
             s2.appendChild(t)
 
             nombre = document.createElement('Nombre')
@@ -139,7 +144,7 @@ def recibir_archivo(request):
         cont3=0
         for linea in juegosv:
             cont3=cont3+1
-            t = document.createElement('Juego_'+str(cont3))
+            t = document.createElement('Juego')
             s3.appendChild(t)
 
             nombre = document.createElement('Nombre')
@@ -164,7 +169,7 @@ def recibir_archivo(request):
         cont4=0
         for linea in juegos:
             cont4=cont4+1
-            t = document.createElement('Juego_'+str(cont4))
+            t = document.createElement('Juego')
             s4.appendChild(t)
 
             nombre = document.createElement('Nombre')
@@ -183,7 +188,7 @@ def recibir_archivo(request):
             cla.appendChild(document.createTextNode(linea[3]))
             t.appendChild(cla)
         
-        controlc=False
+        
 
         
 #lclientes=[]
@@ -195,16 +200,43 @@ def recibir_archivo(request):
                 if re.search(r'[A-Za-z ]',i):
                     xs=0
                 else:
-                    control=True
+                    controlc=True
                     break
 
             for i in linea[1]:
                 if re.search(r'[A-Za-z ]',i):
                     xs=0
                 else:
-                    control=True
+                    controlc=True
                     break
             
+            for i in linea[2]:
+                if re.search(r'\d',i):
+                    xs=0
+                else:
+                    controlc=True
+                    break
+            if re.match(r'^([0-2][0-9]|3[0-1])(\/)(0[1-9]|1[0-2])\2(\d{4})$',linea[3]):
+                xs=0
+            else:
+                controlc=True
+                break
+            
+            if re.match(r'^([0-2][0-9]|3[0-1])(\/)(0[1-9]|1[0-2])\2(\d{4})$',linea[4]):
+                xs=0
+            else:
+                controlc=True
+                break
+
+        
+        for linea in  mclientes:
+            for i in linea[0]:
+                if re.search(r'[A-Za-z ]',i):
+                    xs=0
+                else:
+                    control=True
+                    break
+
             for i in linea[2]:
                 if re.search(r'\d',i):
                     xs=0
@@ -212,10 +244,6 @@ def recibir_archivo(request):
                     control=True
                     break
             
-            
-
-
-
 
             
         
@@ -224,6 +252,9 @@ def recibir_archivo(request):
         url=endpoint.format('/datos')
         requests.post(url,xml)
         return redirect ('index')
+
+def recibir_archivo2(request):
+    return redirect ('index')
     
 
 
