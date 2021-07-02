@@ -48,10 +48,10 @@ def recibir_archivo(request):
         doc2=request.FILES['mclientes']
         doc3=request.FILES['jv']
         doc4=request.FILES['j']
-        data=docs.read().decode('utf-8')
-        mc=doc2.read().decode('utf-8')
-        jv=doc3.read().decode('utf-8')
-        j=doc4.read().decode('utf-8')
+        data=docs.read()
+        mc=doc2.read()
+        jv=doc3.read()
+        j=doc4.read()
         #-----------
         linea=str(data)
         lc=linea.split('\n')
@@ -68,6 +68,7 @@ def recibir_archivo(request):
         for linea in lc:
             linea=linea.strip('\r')
             lc2=linea.split(',')
+
             lclientes.append(lc2)
         #-----------
         for linea in lmc:
